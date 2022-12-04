@@ -44,5 +44,5 @@ def part2() -> int:
 
 
 if __name__ == '__main__':
-    print("Calories from the top elf: " + str(part1()))
-    print("Calories from the top three elves: " + str(part2()))
+    print("Part 1: " + str(part1()))
+    print("Part 2: " + str(part2()))
