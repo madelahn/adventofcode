@@ -2,7 +2,7 @@ def part1():
     list_a = []
     list_b = []
 
-    f = open('day1.txt', 'r')
+    f = open('input/day1.txt', 'r')
     for line in f:
         ints = line.split('   ')
         list_a.append(int(ints[0]))
@@ -23,7 +23,7 @@ def part2():
     list_a = []
     list_b = []
 
-    f = open('day1.txt', 'r')
+    f = open('input/day1.txt', 'r')
     for line in f:
         ints = line.split('   ')
         list_a.append(int(ints[0]))
